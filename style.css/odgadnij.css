@@ -1,0 +1,102 @@
+body{
+  margin:0;
+  background-image: url("./img/5.jpg");
+  background-size:cover;
+  height:100vh;
+}
+
+.image{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:-100
+}
+
+p{
+  font-family: 'Kalam', cursive;
+  Font-size:20px;
+}
+
+.container{
+  background-color:white;
+  max-width:800px;
+  border:solid 5px rgb(41, 118, 211);
+  border-radius:10px;
+  margin:20px auto;
+  padding:10px;
+  text-align:center;
+}
+
+h1{
+  font-family: 'Kalam', cursive;
+  font-size: 25px;
+  text-align:center;
+}
+
+.form{
+width:50%;
+max-width:700px;
+min-width: 450px;
+margin:auto;
+font-family: 'Kalam', cursive;
+}
+
+.guessField{
+  border-style:solid;
+  border-width:1px;
+  border-color:rgb(194, 191, 191);
+  border-radius: 3px;
+  height: 20px;
+ }
+
+.guessSubmit{
+  width: 120px;
+  height:25px;
+  font-family: 'Kalam', cursive;
+  font-size: 14px;
+  color:white;
+  background-color: rgb(61, 142, 248);
+  border-style:none;
+  border-radius:5px;
+  margin-left:2px;
+  cursor:pointer;
+  
+  transition: background-color 0.15s,
+  color 0.15s;
+}
+
+.guessSubmit:hover {
+  background-color:rgb(41, 118, 211); 
+  color:white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.guessSubmit:active {
+  opacity: 0.5s;
+}
+
+.resultParas{
+  text-align:center
+}
+
+.resetButton{
+  width:120px;
+  height:25px;
+  color:White;
+  background-color: rgb(87, 150, 87);
+  border:none;
+  border-radius: 3px;
+  cursor:pointer;
+}
+
+.resetButton:hover {
+  background-color: green; 
+  color:white;
+}
+
+.resetButton:active {
+  opacity: 0.5s;
+}
+
