@@ -3,6 +3,7 @@ body{
   background-image: url("./img/5.jpg");
   background-size:cover;
   height:100vh;
+  font-family: 'Kalam', cursive;
 }
 
 .image{
@@ -35,12 +36,16 @@ h1{
   text-align:center;
 }
 
-.form{
-width:50%;
-max-width:700px;
-min-width: 450px;
-margin:auto;
-font-family: 'Kalam', cursive;
+form{
+  max-width:700px;
+  min-width: 450px;
+  margin:auto;
+  font-family: 'Kalam', cursive;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .guessField{
@@ -49,6 +54,19 @@ font-family: 'Kalam', cursive;
   border-color:rgb(194, 191, 191);
   border-radius: 3px;
   height: 20px;
+  margin: 1em auto;
+  box-sizing: border-box;
+  max-width: 50px;
+ }
+
+ .guessField-input{
+  border-style:solid;
+  border-width:1px;
+  border-color:rgb(194, 191, 191);
+  border-radius: 3px;
+  margin: 1em auto;
+  box-sizing: border-box;
+  padding: 1em 2em;
  }
 
 .guessSubmit{
@@ -98,5 +116,37 @@ font-family: 'Kalam', cursive;
 
 .resetButton:active {
   opacity: 0.5s;
+}
+
+@media(min-width: 600px){
+  .label{
+    font-family: inherit;;
+  }
+
+  .form{
+    width:70%;
+    max-width:700px;
+    min-width: 400px;
+    margin:auto;
+    font-family: 'Kalam', cursive;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .guessField-input{
+      border-style:solid;
+      border-width:1px;
+      border-color:rgb(194, 191, 191);
+      border-radius: 3px;
+      margin: 1em auto;
+      box-sizing: border-box;
+      padding: 1em 2em;
+      width: 50%;
+      box-sizing:border-box;
+     }
+    
 }
 
