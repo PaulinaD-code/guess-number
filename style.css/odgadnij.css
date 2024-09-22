@@ -126,5 +126,10 @@ font-family: 'Kalam', cursive;
     align-items: flex-start;
     justify-content: center;
   }
+
+  .guessField-input{
+    width: 96%;
+    box-sizing:border-box;
+   }
 }
   
